@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <script src="jquery-3.6.0.slim.js" rel="js"></script>
+    <script src="functions.js" rel="js"></script>
 
 </head>
 
@@ -19,18 +21,19 @@
         <h1 id="Ventana_Nueva">Ventana Nueva</h1>
         <div id="Listas">
             <ul>
-                <li><input type="radio">#C47814</li>
-                <li><input type="radio">#47B576</li>
-                <li><input type="radio">#C62A6A</li>
+                <li id="1"><label><input type="radio" name="Color" value="#C47814">#C47814</li></label>
+                <li id="2"><label><input type="radio" name="Color" value="#47B576">#47B576</li></label>
+                <li id="3"><label><input type="radio" name="Color" value="#C62A6A">#C62A6A</li></label>
             </ul>
             <ul>
-                <li>#3070CE</li>
-                <li>#5FB25F</li>
-                <li>#C63838</li>
+                <li id="4"><label><input type="checkbox" name="Color" value="#3070CE">#3070CE</li></label>
+                <li id="5"><label><input type="checkbox" name="Color" value="#5FB25F">#5FB25F</li></label>
+                <li id="6"><label><input checked type="checkbox" name="Color" value="#C63838">#C63838</li></label>
             </ul>
         </div>
     </div>
-    <h1 id="Selector">El color es XXXXXXX</h1>
+    <h1 id="Selector">El color es #C63838</h1>
+    <h1 id=Circulo></h1>
 </body>
 
 </html>

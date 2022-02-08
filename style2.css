@@ -39,5 +39,15 @@ html{
 #Listas{
     padding-top: 70px;
     line-height: 35px;
+    color: #000000;
     
+}
+#Circulo{
+    margin-left: 845px;
+    margin-top: -230px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: solid 11px #BFBFBF;
+    background-color: #C63838;
 }
